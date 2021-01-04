@@ -5,7 +5,7 @@ import TimeModel from "../../models/TimeModel";
 const { useState, useEffect } = React;
 
 const Time = () => {
-  const [countdownDate, setCountdownDate] = useState(TimeModel.getCountdownDateTime());
+  const [countdownDate, setCountdownDate] = useState(null);
 
   const [state, setState] = useState({
     days: 0,
@@ -15,8 +15,11 @@ const Time = () => {
   });
 
   useEffect(() => {
-    setInterval(() => updateCountdown(), 1000);
-  }, []);
+    if (countdownDate) {
+      setInterval(() => updateCountdown(), 1000);
+    }
+    setCountdownDate(TimeModel.getCountdownDateTime());
+  }, [countdownDate]);
 
   const updateCountdown = () => {
     if (countdownDate) {
