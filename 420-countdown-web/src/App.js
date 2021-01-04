@@ -1,13 +1,11 @@
 import Time from "./components/Time/Time";
-import TopBar from "./components/TopBar/TopBar";
-import leaf from "./images/leaf.png";
-import "./App.css";
+import leafImage from "./images/leaf.png";
+import "./styles.css";
 
 const App = () => {
   return (
     <div className="App">
-      <img src={leaf} className="Leaf" />
-      <TopBar />
+      <img src={leafImage} className="leaf-img-cls" />
       <Time />
     </div>
   );
