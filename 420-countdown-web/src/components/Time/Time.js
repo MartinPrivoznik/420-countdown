@@ -46,12 +46,10 @@ const Time = () => {
   };
 
   return (
-    <div>
-      <div className="countdown-container">
-        <span>{state.hours + ":"}</span>
-        <span>{state.minutes + ":"}</span>
-        <span>{state.seconds}</span>
-      </div>
+    <div className="countdown-container">
+      <span>{state.hours + ":"}</span>
+      <span>{state.minutes + ":"}</span>
+      <span>{state.seconds}</span>
     </div>
   );
 };

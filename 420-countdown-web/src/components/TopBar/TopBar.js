@@ -1,4 +1,5 @@
 import React from "react";
+import "./TopBar.css";
 
 const { useState, useEffect } = React;
 
@@ -7,7 +8,11 @@ const TopBar = () => {
 
   useEffect(() => {}, []);
 
-  return <div></div>;
+  return (
+    <div className="top-bar-container">
+      <p>420 Countdown</p>
+    </div>
+  );
 };
 
 export default TopBar;
