@@ -8,3 +8,8 @@
   position: absolute;
   right: 20%;
 }
+
+.top-bar .top-bar-info {
+  margin-top: 25px;
+  margin-left: 20px;
+}
