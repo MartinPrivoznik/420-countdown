@@ -1,0 +1,16 @@
+.App {
+  font-family: "sans-serif", monospace;
+  font-size: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.App .leaf-img-cls {
+  height: 700px;
+  width: 700px;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -350px;
+  position: absolute;
+  top: 50%;
+}
