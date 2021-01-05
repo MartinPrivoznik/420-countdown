@@ -1,6 +1,6 @@
 import React from "react";
 import TimeModel from "../../models/TimeModel";
-import "./styles.css";
+import "./Time.css";
 
 const { useState, useEffect } = React;
 

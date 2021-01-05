@@ -1,7 +1,7 @@
 import Time from "./components/Time/Time";
 import TopBar from "./components/TopBar/TopBar";
 import leafImage from "./images/mascot.png";
-import "./styles.css";
+import "./App.css";
 
 const App = () => {
   return (
