@@ -1,0 +1,13 @@
+.countdown-container {
+  text-align: center;
+  position: relative;
+  font-family: "Courier New", monospace;
+  margin-top: 10%;
+  z-index: 100;
+  width: 100%;
+}
+
+.countdown-container > span {
+  font-size: 140pt;
+  font-weight: 600;
+}

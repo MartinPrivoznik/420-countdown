@@ -1,0 +1,15 @@
+.top-bar {
+  font-weight: bold;
+  display: flex;
+}
+
+.top-bar .top-bar-git {
+  margin-top: 25px;
+  position: absolute;
+  right: 20%;
+}
+
+.top-bar .top-bar-info {
+  margin-top: 25px;
+  margin-left: 20px;
+}
