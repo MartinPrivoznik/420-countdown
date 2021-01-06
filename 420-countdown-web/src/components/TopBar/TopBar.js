@@ -7,15 +7,17 @@ import infoIcon from "../../images/info-icon.png";
 const { useState, useEffect } = React;
 
 const TopBar = () => {
-  const [countdownDate, setCountdownDate] = useState(null);
-
-  useEffect(() => {}, []);
-
   return (
     <div className="top-bar">
       <p>420 Countdown - BETA</p>
       <div className="top-bar-info">
-        <img src={infoIcon} data-tip="hello world" height="30" width="30" />
+        <img
+          src={infoIcon}
+          data-tip="Page is still in beta version but feel free collaborate via github provided on the right side. Peace."
+          height="30"
+          width="30"
+          alt="info"
+        />
         <ReactTooltip />
       </div>
       <div className="top-bar-git">
