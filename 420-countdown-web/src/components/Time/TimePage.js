@@ -16,7 +16,13 @@ const TimePage = ({ dateLeft }) => {
   };
 
   if (dateLeft) {
-    return <Countdown date={dateLeft} renderer={countdownClockRenderer} onTick={countdownClockOnTick} />;
+    return (
+      <Countdown
+        date={dateLeft}
+        renderer={countdownClockRenderer}
+        onTick={countdownClockOnTick}
+      />
+    );
   }
   return <></>;
 };

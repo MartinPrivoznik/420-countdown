@@ -1,19 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import "./TopBar.css";
 import ReactTooltip from "react-tooltip";
 import GitHubButton from "react-github-btn";
 import Switch from "react-switch";
 import infoIcon from "../../images/info-icon.png";
 import useTime from "../../hooks/useTime";
+import { useState } from "react";
 
 const TopBar = () => {
   const [countUntilPM, setcountUntilPM] = useState(false);
 
-  const { setCountdownDate } = useTime();
+  const { toggleCountToPMSwitch } = useTime();
 
   const setCounter = (countUntilPMValue) => {
+    toggleCountToPMSwitch();
     setcountUntilPM(!countUntilPMValue);
-    setCountdownDate(!countUntilPMValue);
   };
 
   return (

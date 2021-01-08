@@ -5,12 +5,12 @@ import TimePage from "./components/Time/TimePage";
 import useTime from "./hooks/useTime";
 
 const App = () => {
-  const time = useTime();
+  const { countdownDate, settings } = useTime();
 
   return (
     <div className="App">
       <TopBar />
-      <TimePage dateLeft={time.countdownDate} />
+      <TimePage dateLeft={countdownDate} key={settings.countToPM} />
     </div>
   );
 };
