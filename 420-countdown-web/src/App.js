@@ -1,12 +1,16 @@
-import Time from "./components/Time/Time";
+import React from "react";
 import TopBar from "./components/TopBar/TopBar";
 import "./App.css";
+import TimePage from "./components/Time/TimePage";
+import useTime from "./hooks/useTime";
 
 const App = () => {
+  const time = useTime();
+
   return (
     <div className="App">
       <TopBar />
-      <Time />
+      <TimePage dateLeft={time.countdownDate} />
     </div>
   );
 };

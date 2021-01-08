@@ -8,16 +8,14 @@ const useTime = () => {
   const remainingTime = useSelector((state) => state.remainingTime);
   const countdownDate = useSelector((state) => state.countdownDate);
 
-  const getRemainingTime = () => {
-    const rmntm = TimeModel.getRemainingTime(countdownDate);
-
-    dispatch(updateRemainingTime(rmntm));
+  const setRemainingTime = (time) => {
+    dispatch(updateRemainingTime(time));
   };
 
   return {
     remainingTime,
     countdownDate,
-    getRemainingTime,
+    setRemainingTime
   };
 };
 

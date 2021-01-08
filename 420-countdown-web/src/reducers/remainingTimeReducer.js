@@ -6,7 +6,7 @@ export const remainingTimeReducer = (state, action) => {
   state = state || initialState;
 
   if (action.type === TYPES.SET_REMAININGTIME) {
-    return [action.payload];
+    return action.payload;
   } else {
     return state;
   }

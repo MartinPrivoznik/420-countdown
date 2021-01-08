@@ -1,1 +1,5 @@
 FallbackResource ./index.html
+
+RewriteEngine On
+RewriteCond %{HTTPS} off [NC]
+RewriteRule (.*) https://420-countdown.com%{REQUEST_URI} [L,R=301,QSA]

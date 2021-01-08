@@ -1,15 +1,62 @@
 .top-bar {
-  font-weight: bold;
   display: flex;
+  height: 10vh;
+  align-items: center;
+}
+
+.top-bar p {
+  font-weight: bold;
+  font-size: 1.6vw;
 }
 
 .top-bar .top-bar-git {
-  margin-top: 26px;
+  position: absolute;
+  right: 15%;
+}
+
+.top-bar .top-bar-git {
+  margin-top: 10px;
   position: absolute;
   right: 15%;
 }
 
 .top-bar .top-bar-info {
-  margin-top: 26px;
   margin-left: 20px;
+  height: 100px;
+  display: flex;
+}
+
+.top-bar .top-bar-info .top-bar-info-img {
+  width: 1.6vw;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .top-bar p {
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+
+  .top-bar .top-bar-info .top-bar-info-img {
+    width: 2.5vw;
+    height: 2.5vw;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-bar p {
+    font-weight: bold;
+    font-size: 4vw;
+  }
+
+  .top-bar .top-bar-git {
+    display: none;
+  }
+
+  .top-bar .top-bar-info .top-bar-info-img {
+    width: 4.5vw;
+    height: 4.5vw;
+    margin: auto;
+  }
 }

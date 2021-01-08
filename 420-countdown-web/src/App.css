@@ -1,12 +1,14 @@
 .App {
   font-family: "sans-serif", monospace;
   font-size: 25px;
-  height: 1000px;
+  height: 100%;
   margin: auto;
   width: 70%;
   align-self: center;
-  background-image: url("./images/mascot.png");
-  background-position: 50% 15%;
-  background-repeat: no-repeat;
-  background-size: 650px 700px;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    width: 90%;
+  }
 }

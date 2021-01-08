@@ -4,21 +4,20 @@ import ReactTooltip from "react-tooltip";
 import GitHubButton from "react-github-btn";
 import infoIcon from "../../images/info-icon.png";
 
-const { useState, useEffect } = React;
-
 const TopBar = () => {
   return (
     <div className="top-bar">
       <p>420 Countdown - BETA</p>
       <div className="top-bar-info">
         <img
+          className="top-bar-info-img"
           src={infoIcon}
-          data-tip="Page is still in beta version but feel free collaborate via github provided on the right side. Peace."
-          height="30"
-          width="30"
+          data-tip="This page is still in BETA version. <br/> 
+                    Feel free to collaborate via github and make this page grow. <br/>
+                    The goal is to make this the best place to stay at before 4:20 hits the clock."
           alt="info"
         />
-        <ReactTooltip />
+        <ReactTooltip place="bottom" offset={{ top: 15, left: 15 }} multiline={true} />
       </div>
       <div className="top-bar-git">
         <GitHubButton
