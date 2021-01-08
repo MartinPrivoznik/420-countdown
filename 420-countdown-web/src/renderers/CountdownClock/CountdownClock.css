@@ -5,9 +5,11 @@
   margin-top: 7%;
   z-index: 100;
   width: 100%;
+  transition: margin 600ms;
 }
 
-.countdown-container > span {
+.countdown-container span {
+  transition: font-size 600ms;
   font-size: 10vw;
   font-weight: 600;
 }
@@ -17,13 +19,7 @@
     font-size: 18vw;
     font-weight: 600;
   }
-
   .countdown-container {
-    text-align: center;
-    position: relative;
-    font-family: "Courier New", monospace;
     margin-top: 25%;
-    z-index: 100;
-    width: 100%;
   }
 }

@@ -3,6 +3,7 @@
   font-size: 25px;
   height: 100%;
   margin: auto;
+  transition: width 600ms;
   width: 70%;
   align-self: center;
 }

@@ -1,6 +1,6 @@
 import React from "react";
+import padStart from "../../helpers/padStart";
 import "./CountdownClock.css";
-import padStart from "../../../helpers/padStart";
 
 const CountdownClock = ({ hours, minutes, seconds }) => {
   return (

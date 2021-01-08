@@ -3,8 +3,9 @@ body {
   background-color: black;
   background-image: url("./images/mascot.png");
   background-position: 50% 15%;
+  transition: background-position 600ms;
   background-repeat: no-repeat;
-  background-size: 650px 700px;
+  background-size: 80vh;
   color: white;
   overflow: hidden;
   height: 100%;
@@ -22,6 +23,5 @@ code {
   html,
   body {
     background-position: 50% 40%;
-    background-size: 470px 530px;
   }
 }

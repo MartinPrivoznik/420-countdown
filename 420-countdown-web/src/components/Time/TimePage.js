@@ -1,7 +1,7 @@
 import React from "react";
 import "./TimePage.css";
 import Countdown from "react-countdown";
-import CountdownClock from "./CountdownClock/CountdownClock";
+import CountdownClock from "../../renderers/CountdownClock/CountdownClock";
 import useTime from "../../hooks/useTime";
 
 const TimePage = ({ dateLeft }) => {

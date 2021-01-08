@@ -7,7 +7,7 @@ export const countdownDateReducer = (state, action) => {
   state = state || initialState;
 
   if (action.type === TYPES.SET_COUNTDOWNDATE) {
-    return [...action.payload];
+    return action.payload;
   } else {
     return state;
   }

@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
+import updateCountdownDate from "../actions/updateCountdownDate";
 import updateRemainingTime from "../actions/updateRemainingTime";
 
 import TimeModel from "../models/TimeModel";
@@ -12,10 +13,15 @@ const useTime = () => {
     dispatch(updateRemainingTime(time));
   };
 
+  const setCountdownDate = (countUntilPM) => {
+    dispatch(updateCountdownDate(TimeModel.getCountdownDateTime(countUntilPM)));
+  };
+
   return {
     remainingTime,
     countdownDate,
-    setRemainingTime
+    setRemainingTime,
+    setCountdownDate
   };
 };
 
