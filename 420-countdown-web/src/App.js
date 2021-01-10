@@ -8,9 +8,12 @@ const App = () => {
   const { countdownDate, settings } = useTime();
 
   return (
-    <div className="App">
-      <TopBar />
-      <TimePage dateLeft={countdownDate} key={settings.countToPM} />
+    <div>
+      <div className="App">
+        <TopBar />
+        <TimePage dateLeft={countdownDate} key={settings.countToPM} />
+      </div>
+      <div className="rain-container"></div>
     </div>
   );
 };
