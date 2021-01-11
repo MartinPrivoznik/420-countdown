@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev src",
     "build": "next build src",
-    "start": "next start src"
+    "start": "next start src",
+    "export": "next export src"
   },
   "dependencies": {
     "next": "10.0.5",
