@@ -16,6 +16,7 @@ const Index = () => (
       />
       <meta name="google" content="notranslate" />
       <meta name="google-site-verification" content="Wo-hAYg20yw3v_YVaHuG-Ywq9UHnzePgeHjQyormbSU" />
+      <link rel="canonical" href="https://420-countdown.com/" />
       <title>420 Countdown</title>
     </Head>
     <Provider store={store}>
