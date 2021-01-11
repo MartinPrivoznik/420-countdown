@@ -2,7 +2,6 @@
 
 # dependencies
 420-countdown-web/node_modules
-420-countdown-web/src/.next
 /.pnp
 .pnp.js
 
