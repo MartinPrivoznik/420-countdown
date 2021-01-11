@@ -1,5 +1,5 @@
 import React from "react";
-import "./TimePage.css";
+import cls from "./TimePage.module.css";
 import Countdown from "react-countdown";
 import CountdownClock from "../../renderers/CountdownClock/CountdownClock";
 import useTime from "../../hooks/useTime";
@@ -16,13 +16,7 @@ const TimePage = ({ dateLeft }) => {
   };
 
   if (dateLeft) {
-    return (
-      <Countdown
-        date={dateLeft}
-        renderer={countdownClockRenderer}
-        onTick={countdownClockOnTick}
-      />
-    );
+    return <Countdown date={dateLeft} renderer={countdownClockRenderer} onTick={countdownClockOnTick} />;
   }
   return <></>;
 };

@@ -1,9 +1,8 @@
 import React from "react";
-import "./TopBar.css";
-import ReactTooltip from "react-tooltip";
-import GitHubButton from "react-github-btn";
+import cls from "./TopBar.module.css";
+import GitHubButton from "react-next-github-btn";
 import Switch from "react-switch";
-import infoIcon from "../../images/info-icon.png";
+import InfoTooltip from "./InfoTooltip/InfoTooltip";
 import useTime from "../../hooks/useTime";
 import { useState } from "react";
 
@@ -18,23 +17,13 @@ const TopBar = () => {
   };
 
   return (
-    <div className="top-bar">
+    <div className={cls["top-bar"]}>
       <p>420 Countdown - BETA</p>
-      <div className="top-bar-info">
-        <img
-          className="top-bar-info-img"
-          src={infoIcon}
-          data-tip="This page is still in BETA version. <br/> 
-                    Feel free to collaborate via github and make this page grow. <br/>
-                    The goal is to make this the best place to stay at before 4:20 hits the clock."
-          alt="info"
-        />
-        <ReactTooltip place="bottom" multiline={true} />
-      </div>
-      <div className="top-bar-switch-container">
+      <InfoTooltip />
+      <div className={cls["top-bar-switch-container"]}>
         <p>AM</p>
         <Switch
-          className="top-bar-switch-container-switch"
+          className={cls["top-bar-switch-container-switch"]}
           onChange={() => setCounter(countUntilPM)}
           checked={countUntilPM}
           uncheckedIcon={false}
@@ -51,7 +40,7 @@ const TopBar = () => {
         />
         <p>PM</p>
       </div>
-      <div className="top-bar-git">
+      <div className={cls["top-bar-git"]}>
         <GitHubButton
           href="https://github.com/MartinPrivoznik/420-countdown/tree/main/420-countdown-web"
           data-color-scheme="no-preference: dark; light: light; dark: dark;"
