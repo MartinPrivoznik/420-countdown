@@ -4,4 +4,8 @@
     <loc>https://www.420-countdown.com/</loc>
     <priority>1</priority>
   </url>
+  <url>
+    <loc>https://420-countdown.com/</loc>
+    <priority>1</priority>
+  </url>
 </urlset>
