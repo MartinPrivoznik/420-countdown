@@ -32,6 +32,9 @@ const Index = () => (
         content="Countdown clock displaying the remaining time until upcoming 4:20. The goal is to make this a perfect place for waiting until next 420."
       />
       <meta property="twitter:image" content="" />
+      <meta name="google" content="notranslate" />
+      <meta name="google-site-verification" content="Wo-hAYg20yw3v_YVaHuG-Ywq9UHnzePgeHjQyormbSU" />
+      <link rel="canonical" href="https://420-countdown.com/" />
     </Head>
     <Provider store={store}>
       <App />
