@@ -12,10 +12,12 @@
   font-size: 20px;
 }
 
-.top-bar h1 {
+.top-bar h1 a {
   transition: font-size 400ms;
   font-weight: bold;
   font-size: 24px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .top-bar .top-bar-git {
