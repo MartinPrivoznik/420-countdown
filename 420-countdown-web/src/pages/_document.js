@@ -1,10 +1,16 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
+  static async getInitialProps(ctx) {
+    const initialProps = await Document.getInitialProps(ctx);
+    return { ...initialProps };
+  }
+
   render() {
     return (
       <Html lang="en">
         <Head>
+          <meta charSet="utf-8" />
           <meta name="title" content="420 Countdown - BETA" />
           <meta
             name="description"
@@ -32,9 +38,9 @@ class MyDocument extends Document {
           <meta name="google-site-verification" content="Wo-hAYg20yw3v_YVaHuG-Ywq9UHnzePgeHjQyormbSU" />
           <link rel="canonical" href="https://420-countdown.com/" />
 
-          <link rel="icon" href="/img/favicon.ico"></link>
-          <link rel="shortcut icon" href="/img/favicon.ico" />
-          <link rel="apple-touch-icon" href="/img/logo192.png"></link>
+          <link rel="icon" href="/favicon.ico"></link>
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="apple-touch-icon" href="/logo192.png"></link>
         </Head>
         <body>
           <Main />
