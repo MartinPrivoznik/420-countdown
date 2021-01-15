@@ -42,6 +42,18 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico"></link>
           <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/logo192.png"></link>
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEXLQT5XJW"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments)}
+        gtag("js", new Date());
+        gtag("config", "G-KEXLQT5XJW");
+    `
+            }}
+          ></script>
         </Head>
         <body>
           <Main />
