@@ -32,9 +32,9 @@ class MyDocument extends Document {
           <meta name="google-site-verification" content="Wo-hAYg20yw3v_YVaHuG-Ywq9UHnzePgeHjQyormbSU" />
           <link rel="canonical" href="https://420-countdown.com/" />
 
-          <link rel="icon" href="static/img/favicon.ico"></link>
-          <link rel="shortcut icon" href="static/img/favicon.ico" />
-          <link rel="apple-touch-icon" href="static/img/logo192.png"></link>
+          <link rel="icon" href="/img/favicon.ico"></link>
+          <link rel="shortcut icon" href="/img/favicon.ico" />
+          <link rel="apple-touch-icon" href="/img/logo192.png"></link>
         </Head>
         <body>
           <Main />
