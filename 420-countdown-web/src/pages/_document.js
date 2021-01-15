@@ -24,7 +24,7 @@ class MyDocument extends Document {
             property="og:description"
             content="Countdown clock displaying the remaining time until upcoming 4:20. The goal is to make this a perfect place for waiting until next 420."
           />
-          <meta property="og:image" content="" />
+          <meta property="og:image" content="/logo512.png" />
 
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://420-countdown.com/" />
@@ -33,7 +33,8 @@ class MyDocument extends Document {
             property="twitter:description"
             content="Countdown clock displaying the remaining time until upcoming 4:20. The goal is to make this a perfect place for waiting until next 420."
           />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:image" content="/logo512.png" />
+
           <meta name="google" content="notranslate" />
           <meta name="google-site-verification" content="Wo-hAYg20yw3v_YVaHuG-Ywq9UHnzePgeHjQyormbSU" />
           <link rel="canonical" href="https://420-countdown.com/" />

@@ -1,7 +1,7 @@
 html,
 body {
   background-color: black;
-  background-image: url("../images/mascot.png");
+  background-image: url("../images/mascot.webp");
   background-position: 50% 15%;
   transition: background-position 600ms;
   background-repeat: no-repeat;

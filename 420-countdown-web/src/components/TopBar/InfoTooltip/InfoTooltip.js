@@ -3,7 +3,7 @@ import cls from "./InfoTooltip.module.css";
 import ReactTooltip from "react-tooltip";
 import { useState } from "react";
 
-const TopBar = () => {
+const InfoTooltip = () => {
   const [showTooltip, setShowTooltip] = useState(false);
 
   useEffect(() => {
@@ -26,4 +26,4 @@ const TopBar = () => {
   }
 };
 
-export default TopBar;
+export default InfoTooltip;
