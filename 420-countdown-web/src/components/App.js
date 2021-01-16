@@ -1,8 +1,8 @@
 import React from "react";
-import TopBar from "./components/TopBar/TopBar";
+import TopBar from "./TopBar/TopBar";
 import cls from "./App.module.css";
-import TimePage from "./components/Time/TimePage";
-import useTime from "./hooks/useTime";
+import TimePage from "./Time/TimePage";
+import useTime from "../hooks/useTime";
 
 const App = () => {
   const { countdownDate, settings } = useTime();

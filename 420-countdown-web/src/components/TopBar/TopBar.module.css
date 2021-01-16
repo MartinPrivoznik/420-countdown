@@ -36,7 +36,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .top-bar p {
+  .top-bar h1 {
     font-size: 4vw;
   }
 

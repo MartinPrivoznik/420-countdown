@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import App from "../App";
+import App from "../components/App";
 
 import { store } from "../store/store";
 import { Provider } from "react-redux";
