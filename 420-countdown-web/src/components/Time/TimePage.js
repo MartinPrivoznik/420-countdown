@@ -5,13 +5,14 @@ import CountdownClock from "../../renderers/CountdownClock/CountdownClock";
 import useTime from "../../hooks/useTime";
 
 const TimePage = ({ dateLeft }) => {
-  const { setRemainingTime } = useTime();
+  const { setRemainingTime, setIs420, settings } = useTime();
 
   const countdownClockRenderer = ({ hours, minutes, seconds }) => {
     return <CountdownClock hours={hours} minutes={minutes} seconds={seconds} />;
   };
 
-  const countdownClockOnTick = ({ hours, minutes, seconds }) => {
+  const countdownClockOnTick = ({ hours, minutes, seconds, completed }) => {
+    setIs420(completed);
     setRemainingTime({ hours: hours, minutes: minutes, seconds: seconds });
   };
 

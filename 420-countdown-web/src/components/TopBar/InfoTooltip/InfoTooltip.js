@@ -14,9 +14,10 @@ const InfoTooltip = () => {
     return (
       <div
         className={cls["tooltip"]}
-        data-tip="This page is still in BETA version. <br/> 
-                    Feel free to collaborate via github and make this page grow. <br/>
-                    The goal is to make this the best place to stay at before 4:20 hits the clock."
+        data-tip="Countdown page is still in BETA version. <br/> 
+                  Feel free to collaborate via github and make this page grow. <br/>
+                  The goal is to make this the best place to stay at before 4:20 hits the clock. <br/>
+                  Happy 420"
       >
         <ReactTooltip place="bottom" multiline={true} />
       </div>

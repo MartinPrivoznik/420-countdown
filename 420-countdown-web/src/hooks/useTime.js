@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import toggleCountToPM from "../actions/toggleCountToPM";
 import updateCountdownDate from "../actions/updateCountdownDate";
 import updateRemainingTime from "../actions/updateRemainingTime";
+import updateIs420 from "../actions/updateIs420";
 
 import TimeModel from "../models/TimeModel";
 
@@ -25,6 +26,11 @@ const useTime = () => {
     dispatch(toggleCountToPM(newCountToPM));
   };
 
+  const setIs420 = (is420) => {
+    console.log(is420);
+    dispatch(updateIs420(is420));
+  };
+
   return {
     remainingTime,
     countdownDate,
@@ -32,6 +38,7 @@ const useTime = () => {
     setRemainingTime,
     setCountdownDate,
     toggleCountToPMSwitch,
+    setIs420
   };
 };
 

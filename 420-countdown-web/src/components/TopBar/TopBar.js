@@ -18,7 +18,7 @@ const TopBar = () => {
 
   return (
     <div className={cls["top-bar"]}>
-      <h1>420 Countdown - BETA</h1>
+      <h1>420 Countdown Timer</h1>
       <InfoTooltip />
       <div className={cls["top-bar-switch-container"]}>
         <p>AM</p>
