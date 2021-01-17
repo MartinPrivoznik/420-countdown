@@ -27,7 +27,6 @@ const useTime = () => {
   };
 
   const setIs420 = (is420) => {
-    console.log(is420);
     dispatch(updateIs420(is420));
   };
 
