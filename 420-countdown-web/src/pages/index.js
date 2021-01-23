@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 const Index = () => (
   <div>
     <Head>
-      <title>420 Countdown Timer</title>
+      <title>420 Countdown | Timer</title>
     </Head>
     <Provider store={store}>
       <App />

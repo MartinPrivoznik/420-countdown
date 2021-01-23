@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="title" content="420 Countdown Timer" />
+          <meta name="title" content="420 Countdown" />
           <meta
             name="description"
             content="Countdown timer displaying the remaining time until upcoming 4:20. The goal is to make this a perfect place for waiting until next 420."
@@ -19,7 +19,7 @@ class MyDocument extends Document {
 
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://420-countdown.com/" />
-          <meta property="og:title" content="420 Countdown Timer" />
+          <meta property="og:title" content="420 Countdown" />
           <meta
             property="og:description"
             content="Countdown clock displaying the remaining time until upcoming 4:20. The goal is to make this a perfect place for waiting until next 420."
@@ -28,7 +28,7 @@ class MyDocument extends Document {
 
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://420-countdown.com/" />
-          <meta property="twitter:title" content="420 Countdown Timer" />
+          <meta property="twitter:title" content="420 Countdown" />
           <meta
             property="twitter:description"
             content="Countdown clock displaying the remaining time until upcoming 4:20. The goal is to make this a perfect place for waiting until next 420."
