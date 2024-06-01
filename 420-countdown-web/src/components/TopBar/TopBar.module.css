@@ -4,6 +4,7 @@
   height: 10vh;
   width: 100%;
   align-items: center;
+  z-index: 100;
 }
 
 .top-bar p {
