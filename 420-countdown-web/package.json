@@ -10,8 +10,9 @@
   },
   "dependencies": {
     "next": "^13.5.4",
+    "next-share": "^0.27.0",
     "react": "^18.2.0",
-    "react-countdown": "^2.3.1",
+    "react-countdown": "^2.3.5",
     "react-dom": "^18.2.0",
     "react-github-btn": "^1.2.0",
     "react-next-github-btn": "^1.2.1",

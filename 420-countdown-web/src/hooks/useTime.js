@@ -8,8 +8,8 @@ import TimeModel from "../models/TimeModel";
 
 const useTime = () => {
   const dispatch = useDispatch();
-  const remainingTime = useSelector((state) => state.remainingTime);
   const countdownDate = useSelector((state) => state.countdownDate);
+  const remainingTime = useSelector((state) => state.remainingTime);
   const settings = useSelector((state) => state.settingsReducer);
 
   const setRemainingTime = (time) => {
@@ -37,7 +37,7 @@ const useTime = () => {
     setRemainingTime,
     setCountdownDate,
     toggleCountToPMSwitch,
-    setIs420
+    setIs420,
   };
 };
 
