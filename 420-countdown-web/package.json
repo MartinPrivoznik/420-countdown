@@ -9,10 +9,10 @@
     "export": "next export src"
   },
   "dependencies": {
-    "next": "10.0.5",
-    "react": "17.0.1",
+    "next": "^14.2.3",
+    "react": "^16.8.3",
     "react-countdown": "^2.3.1",
-    "react-dom": "17.0.1",
+    "react-dom": "^16.8.3",
     "react-github-btn": "^1.2.0",
     "react-next-github-btn": "^1.2.1",
     "react-redux": "^7.2.2",
