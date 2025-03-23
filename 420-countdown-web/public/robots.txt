@@ -1,8 +1,4 @@
-User-agent: Googlebot
-Allow: *.css
-Allow: *.js# global
-
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://420-countdown.privoznik.dev/sitemap.xml
+Sitemap: https://420-countdown.com/sitemap.xml
