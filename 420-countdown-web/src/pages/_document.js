@@ -18,10 +18,7 @@ class MyDocument extends Document {
           />
 
           <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            content="https://420-countdown.privoznik.dev/"
-          />
+          <meta property="og:url" content="https://420-countdown.com/" />
           <meta property="og:title" content="420 Countdown" />
           <meta
             property="og:description"
@@ -30,10 +27,7 @@ class MyDocument extends Document {
           <meta property="og:image" content="/logo512.png" />
 
           <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:url"
-            content="https://420-countdown.privoznik.dev/"
-          />
+          <meta property="twitter:url" content="https://420-countdown.com/" />
           <meta property="twitter:title" content="420 Countdown" />
           <meta
             property="twitter:description"
@@ -46,7 +40,7 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="Wo-hAYg20yw3v_YVaHuG-Ywq9UHnzePgeHjQyormbSU"
           />
-          <link rel="canonical" href="https://420-countdown.privoznik.dev/" />
+          <link rel="canonical" href="https://420-countdown.com/" />
 
           <link rel="icon" href="/favicon.ico"></link>
           <link rel="shortcut icon" href="/favicon.ico" />

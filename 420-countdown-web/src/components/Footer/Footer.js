@@ -30,19 +30,19 @@ const Footer = () => {
         </Link>
       </div>
       <div className={cls["social"]}>
-        <FacebookShareButton url={"https://420-countdown.privoznik.dev/"}>
+        <FacebookShareButton url={"https://420-countdown.com/"}>
           <FacebookIcon size={32} round />
         </FacebookShareButton>
-        <RedditShareButton url={"https://420-countdown.privoznik.dev/"}>
+        <RedditShareButton url={"https://420-countdown.com/"}>
           <RedditIcon size={32} round />
         </RedditShareButton>
-        <WhatsappShareButton url={"https://420-countdown.privoznik.dev/"}>
+        <WhatsappShareButton url={"https://420-countdown.com/"}>
           <WhatsappIcon size={32} round />
         </WhatsappShareButton>
-        <LinkedinShareButton url={"https://420-countdown.privoznik.dev/"}>
+        <LinkedinShareButton url={"https://420-countdown.com/"}>
           <LinkedinIcon size={32} round />
         </LinkedinShareButton>
-        <EmailShareButton url={"https://420-countdown.privoznik.dev/"}>
+        <EmailShareButton url={"https://420-countdown.com/"}>
           <EmailIcon size={32} round />
         </EmailShareButton>
       </div>
