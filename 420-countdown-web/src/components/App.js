@@ -8,6 +8,30 @@ import Footer from "./Footer/Footer";
 const App = () => {
   const { countdownDate, settings } = useTime();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "420 Countdown",
+    url: "https://420-countdown.com",
+    description:
+      "Countdown to the next 4:20. Stay updated with the exact time left until the next 4:20 celebration.",
+    publisher: {
+      "@type": "Organization",
+      name: "420 Countdown",
+      url: "https://420-countdown.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://420-countdown.com/logo512.png",
+      },
+    },
+    mainEntity: {
+      "@type": "WebPageElement",
+      name: "Countdown Timer",
+      description: "A timer counting down to the next 4:20.",
+      url: "https://420-countdown.com",
+    },
+  };
+
   return (
     <>
       {/* <div className={cls["rain-container"]}>
@@ -23,6 +47,10 @@ const App = () => {
         <TimePage dateLeft={countdownDate} key={settings.countToPM} />
         <Footer />
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </>
   );
 };
