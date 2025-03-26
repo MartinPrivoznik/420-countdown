@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://420-countdown.com/$1",
+      "permanent": true
+    }
+  ]
+}
